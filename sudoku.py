@@ -135,7 +135,7 @@ class sudoku(tk.Frame):
 	def createManyButtons(self):
 		for row in range(9):
 			for column in range(9):
-				sudokuEntry'row''column' = tk.Button(self, text=self.sudokuGrid[row][column], width=self.buttonWidth, height=self.buttonHeight).grid(row=row, column=column)
+				tk.Button(self, text=self.sudokuGrid[row][column], width=self.buttonWidth, height=self.buttonHeight).grid(row=row, column=column)
 
 
 
